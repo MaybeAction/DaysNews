@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#82000000"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:layout_height="100dp">
+    <TextView
+        android:background="#cccccc"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="删除该新闻"
+        android:id="@+id/tv_popfavorite_delete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <View
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <TextView
+        android:background="#cccccc"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="清空所有收藏"
+        android:id="@+id/tv_popfavorite_deleteAll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>
+</RelativeLayout>

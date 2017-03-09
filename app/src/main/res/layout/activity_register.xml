@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+    <include layout="@layout/item_title"></include>
+    <EditText
+        android:paddingLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_comment"
+        android:hint=" 请输入用户名"
+        android:id="@+id/et_register_account"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:paddingLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/edit_comment"
+        android:layout_marginTop="10dp"
+        android:hint="请输入昵称"
+        android:id="@+id/et_register_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:paddingLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/edit_comment"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:hint=" 请输入密码"
+        android:id="@+id/et_register_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:text="注册"
+        android:background="@drawable/selector_entry_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_register"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        <CheckBox
+            android:id="@+id/cb_register"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_web_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include layout="@layout/item_title"
+        ></include>
+
+<ProgressBar
+    android:max="100"
+    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+    android:id="@+id/pb"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"/>
+    <WebView
+        android:layout_weight="1"
+        android:id="@+id/wb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></WebView>
+</LinearLayout>

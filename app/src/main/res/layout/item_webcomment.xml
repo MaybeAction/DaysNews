@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_height="100dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/iv_wbcomment"
+            android:src="@mipmap/biz_pc_main_info_profile_avatar_bg_dark"
+            android:layout_width="30dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_wbcomment_uid"
+            android:layout_marginLeft="10dp"
+            android:gravity="center|left"
+            android:layout_weight="1"
+            android:text="11111111"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_wbcomment_stamp"
+            android:gravity="center"
+            android:text="11111111"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:gravity="center|left"
+            android:text="1111111111"
+            android:id="@+id/tv_wbcomment_cotent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

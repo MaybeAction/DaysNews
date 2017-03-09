@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\DaysNews\\JPushExample(595357)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tiledstripes.xml",
+        "source": "E:\\DaysNews\\JPushExample(595357)\\res\\drawable-hdpi\\tiledstripes.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject\\Myproject\\DaysNews\\JPushExample(595357)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tiledstripes.xml",
+        "source": "E:\\androidstudioproject\\Myproject\\DaysNews\\JPushExample(595357)\\res\\drawable-hdpi\\tiledstripes.xml"
+    },
+    {
+        "merged": "E:\\DaysNews\\JPushExample(595357)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\richpush_btn_selector.xml",
+        "source": "E:\\DaysNews\\JPushExample(595357)\\res\\drawable-hdpi\\richpush_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject\\Myproject\\DaysNews\\JPushExample(595357)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\corners_bg.xml",
+        "source": "E:\\androidstudioproject\\Myproject\\DaysNews\\JPushExample(595357)\\res\\drawable-hdpi\\corners_bg.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject\\Myproject\\DaysNews\\JPushExample(595357)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\richpush_btn_selector.xml",
+        "source": "E:\\androidstudioproject\\Myproject\\DaysNews\\JPushExample(595357)\\res\\drawable-hdpi\\richpush_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\androidstudioproject\\Myproject\\DaysNews\\JPushExample(595357)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\richpush_progressbar.xml",
+        "source": "E:\\androidstudioproject\\Myproject\\DaysNews\\JPushExample(595357)\\res\\drawable-hdpi\\richpush_progressbar.xml"
+    },
+    {
+        "merged": "E:\\DaysNews\\JPushExample(595357)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\richpush_progressbar.xml",
+        "source": "E:\\DaysNews\\JPushExample(595357)\\res\\drawable-hdpi\\richpush_progressbar.xml"
+    },
+    {
+        "merged": "E:\\DaysNews\\JPushExample(595357)\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\corners_bg.xml",
+        "source": "E:\\DaysNews\\JPushExample(595357)\\res\\drawable-hdpi\\corners_bg.xml"
+    }
+]

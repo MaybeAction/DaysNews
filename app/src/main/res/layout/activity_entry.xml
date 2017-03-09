@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_entry"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+<include layout="@layout/item_title"></include>
+
+    <EditText
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_comment"
+        android:hint=" 请输入用户名"
+        android:id="@+id/et_entry_account"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/edit_comment"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword"
+        android:hint=" 请输入密码"
+        android:id="@+id/et_entry_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/bt_entry"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:text="登录"
+        android:background="@drawable/selector_entry_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <RelativeLayout
+
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <Button
+            android:id="@+id/bt_forgetPassword"
+            android:textColor="#ffffff"
+            android:background="@drawable/selector_entry_button"
+            android:layout_marginLeft="10dp"
+            android:textSize="12sp"
+            android:text="忘记密码"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:textSize="12sp"
+            android:id="@+id/bt_register"
+            android:textColor="#ffffff"
+            android:text="注册"
+            android:background="@drawable/selector_entry_button"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</LinearLayout>
