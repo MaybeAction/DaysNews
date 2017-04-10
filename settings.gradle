@@ -1,1 +1,1 @@
-include ':app', ':StudyNews', ':JPushExample(595357)'
+include ':app'
